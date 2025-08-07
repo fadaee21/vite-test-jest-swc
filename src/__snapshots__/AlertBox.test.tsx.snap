@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertBox Component matches snapshot: error + closable 1`] = `
+<DocumentFragment>
+  <div
+    role="alert"
+    style="border: 1px solid; padding: 1rem; color: red;"
+  >
+    <strong>
+      Error:
+    </strong>
+     Error message
+    <button
+      aria-label="close-button"
+    >
+      x
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AlertBox Component matches snapshot: success + not closable 1`] = `
+<DocumentFragment>
+  <div
+    role="alert"
+    style="border: 1px solid; padding: 1rem; color: green;"
+  >
+    <strong>
+      Success:
+    </strong>
+     It worked!
+  </div>
+</DocumentFragment>
+`;
